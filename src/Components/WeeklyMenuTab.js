@@ -5,27 +5,27 @@ import {foodItems} from "../mockData/Receipes";
 const weeks = {
     week1: {
         id: "week1",
-        dates: "Oct 09 - Oct 15",
+        dates: "Oct 16 - Oct 22",
         foodItemsIndexStartWith: 0
     },
     week2: {
         id: "week2",
-        dates: "Oct 16 - Oct 22",
+        dates: "Oct 23 - Oct 29",
         foodItemsIndexStartWith: 9
     },
     week3: {
         id: "week3",
-        dates: "Oct 23 - Oct 29",
+        dates: "Nov 06 - Nov 12",
         foodItemsIndexStartWith: 18
     },
     week4: {
         id: "week4",
-        dates: "Nov 06 - Nov 12",
+        dates: "Nov 13 - Nov 19",
         foodItemsIndexStartWith: 27
     },
     week5: {
         id: "week5",
-        dates: "Nov 13 - Nov 19",
+        dates: "Nov 20 - Nov 26",
         foodItemsIndexStartWith: 36
     },
 }
