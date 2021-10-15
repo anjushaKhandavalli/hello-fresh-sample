@@ -1,17 +1,26 @@
-# Getting Started with Create React App
-# hello-fresh-sample
+# React App
 
-## Available Scripts
+## hello-fresh-sample
 
-In the project directory, you can run:
-### `yarn install`
+ - This is a Responsive website to show weekly menu and shows recipe for each food item in a week.
+ - Models have been used to show the recipe and this can be done through routing also.
+ - CSS have been used while styled components can be used for more readability.
+ 
 
-Installs the dependencies
+## steps to run the project
 
-### `yarn start`
+> ```yarn install```
+> 
+>Installs all the dependencies required.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+>
+> ```yarn start```
+> 
+>Runs the app  in the development mode.
+	
+> Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+			
 
-The page will reload if you make edits.\
+>The page will reload if you make edits.
 You will also see any lint errors in the console.
+
