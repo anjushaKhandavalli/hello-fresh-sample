@@ -80,6 +80,11 @@
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
 }
 
+.foodItem:hover{
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 50%);
+}
+
 #foodItemName {
   font-family: Agrandir, Verdana, Geneva, sans-serif;
   color: #242424;
