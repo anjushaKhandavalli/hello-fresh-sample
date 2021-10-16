@@ -34,7 +34,6 @@ const WeeklyMenuTab = ({weekSpan, setWeekSpan, setItems}) => {
 
     const handleChange = (event) => {
         const weekId = event.target.value
-        console.log("weekId", weekId)
         const weekSpanDates = weeks[weekId].dates
         setWeekSpan(weekSpanDates);
 
@@ -44,13 +43,13 @@ const WeeklyMenuTab = ({weekSpan, setWeekSpan, setItems}) => {
 
     return (
         <div className="menuHeader">
-            <p className="menuFor">{weekSpan ? `Menu for ${weekSpan}` : `Please select the week to show foodItems`}</p>
+            <p className="menuFor" data-testid="menuHeader">{weekSpan ? `Menu for ${weekSpan}` : `Please select the week to show foodItems`}</p>
             <div className="menuButtons">
-                <button onClick={handleChange} value={weeks.week1.id}>{weeks.week1.dates}</button>
-                <button onClick={handleChange} value={weeks.week2.id}>{weeks.week2.dates}</button>
-                <button onClick={handleChange} value={weeks.week3.id}>{weeks.week3.dates}</button>
-                <button onClick={handleChange} value={weeks.week4.id}>{weeks.week4.dates}</button>
-                <button onClick={handleChange} value={weeks.week5.id}>{weeks.week5.dates}</button>
+                <button data-testid={weeks.week1.id} onClick={handleChange} value={weeks.week1.id}>{weeks.week1.dates}</button>
+                <button data-testid={weeks.week2.id} onClick={handleChange} value={weeks.week2.id}>{weeks.week2.dates}</button>
+                <button data-testid={weeks.week3.id} onClick={handleChange} value={weeks.week3.id}>{weeks.week3.dates}</button>
+                <button data-testid={weeks.week4.id} onClick={handleChange} value={weeks.week4.id}>{weeks.week4.dates}</button>
+                <button data-testid={weeks.week5.id} onClick={handleChange} value={weeks.week5.id}>{weeks.week5.dates}</button>
             </div>
         </div>
     );

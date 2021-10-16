@@ -1,0 +1,817 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should ask user to select week to render foodItems when non of the week is selected 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <header
+          class="App-header"
+        >
+          <h1>
+            Hello Fresh
+          </h1>
+        </header>
+        <div
+          class="container"
+        >
+          <div
+            class="menuHeader"
+          >
+            <p
+              class="menuFor"
+              data-testid="menuHeader"
+            >
+              Please select the week to show foodItems
+            </p>
+            <div
+              class="menuButtons"
+            >
+              <button
+                data-testid="week1"
+                value="week1"
+              >
+                Oct 16 - Oct 22
+              </button>
+              <button
+                data-testid="week2"
+                value="week2"
+              >
+                Oct 23 - Oct 29
+              </button>
+              <button
+                data-testid="week3"
+                value="week3"
+              >
+                Nov 06 - Nov 12
+              </button>
+              <button
+                data-testid="week4"
+                value="week4"
+              >
+                Nov 13 - Nov 19
+              </button>
+              <button
+                data-testid="week5"
+                value="week5"
+              >
+                Nov 20 - Nov 26
+              </button>
+            </div>
+          </div>
+          <div>
+            <div
+              class="foodItems"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <header
+        class="App-header"
+      >
+        <h1>
+          Hello Fresh
+        </h1>
+      </header>
+      <div
+        class="container"
+      >
+        <div
+          class="menuHeader"
+        >
+          <p
+            class="menuFor"
+            data-testid="menuHeader"
+          >
+            Please select the week to show foodItems
+          </p>
+          <div
+            class="menuButtons"
+          >
+            <button
+              data-testid="week1"
+              value="week1"
+            >
+              Oct 16 - Oct 22
+            </button>
+            <button
+              data-testid="week2"
+              value="week2"
+            >
+              Oct 23 - Oct 29
+            </button>
+            <button
+              data-testid="week3"
+              value="week3"
+            >
+              Nov 06 - Nov 12
+            </button>
+            <button
+              data-testid="week4"
+              value="week4"
+            >
+              Nov 13 - Nov 19
+            </button>
+            <button
+              data-testid="week5"
+              value="week5"
+            >
+              Nov 20 - Nov 26
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="foodItems"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App should render food items for selected week 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <header
+          class="App-header"
+        >
+          <h1>
+            Hello Fresh
+          </h1>
+        </header>
+        <div
+          class="container"
+        >
+          <div
+            class="menuHeader"
+          >
+            <p
+              class="menuFor"
+              data-testid="menuHeader"
+            >
+              Menu for Oct 16 - Oct 22
+            </p>
+            <div
+              class="menuButtons"
+            >
+              <button
+                data-testid="week1"
+                value="week1"
+              >
+                Oct 16 - Oct 22
+              </button>
+              <button
+                data-testid="week2"
+                value="week2"
+              >
+                Oct 23 - Oct 29
+              </button>
+              <button
+                data-testid="week3"
+                value="week3"
+              >
+                Nov 06 - Nov 12
+              </button>
+              <button
+                data-testid="week4"
+                value="week4"
+              >
+                Nov 13 - Nov 19
+              </button>
+              <button
+                data-testid="week5"
+                value="week5"
+              >
+                Nov 20 - Nov 26
+              </button>
+            </div>
+          </div>
+          <div>
+            <div
+              class="foodItems"
+            >
+              <div
+                class="foodItem"
+                data-testid="94298"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2021/10/10/18/04/food-6697924_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  3 Chicken Wings
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Tender, Spicy and Juicy.
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94301"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2021/10/10/18/03/food-6697917_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  Chicken Livers and Portuguese Roll
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Chicken Livers Topped with PERi-PERi Sauce
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94304"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2021/10/10/18/10/rice-6697956_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  Spicy Mixed Olives (V)
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Co-Starring Garlic, Pepper
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94307"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2021/10/10/18/11/chicken-kabob-6697959_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  Hummus with PERI-PERI Drizzle (V)
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Pour Smoky PERi-PERi Oil Over Creamy Hummus
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94310"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2021/10/10/12/59/drink-6696596_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  Red Pepper Dip (V)
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Dive Into Temping Roasted Red Pepper
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94313"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  Appeteaser Platter
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Choose any Three Appeteasers
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94316"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2021/10/10/18/10/chicken-kabob-6697957_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  All Together Now (V)
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Spicy Mixed Olives, Red Pepper Dip.
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94334"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2015/03/26/09/39/cupcakes-690040_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  PERi-PERi Wedges (P)
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Spicy Mixed Olives, Red Pepper Dip.
+                </p>
+              </div>
+              <div
+                class="foodItem"
+                data-testid="94337"
+              >
+                <img
+                  alt="some food Image"
+                  data-testid="foodItemImage"
+                  height="200"
+                  src="https://cdn.pixabay.com/photo/2015/07/31/12/07/soup-greens-869075_1280.jpg"
+                  width="360"
+                />
+                <p
+                  data-testid="foodItemName"
+                  id="foodItemName"
+                >
+                  Corn-On-The-Cob
+                </p>
+                <p
+                  data-testid="foodItemDescription"
+                  id="foodItemDescription"
+                >
+                  Spicy Mixed Olives, Red Pepper Dip.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <header
+        class="App-header"
+      >
+        <h1>
+          Hello Fresh
+        </h1>
+      </header>
+      <div
+        class="container"
+      >
+        <div
+          class="menuHeader"
+        >
+          <p
+            class="menuFor"
+            data-testid="menuHeader"
+          >
+            Menu for Oct 16 - Oct 22
+          </p>
+          <div
+            class="menuButtons"
+          >
+            <button
+              data-testid="week1"
+              value="week1"
+            >
+              Oct 16 - Oct 22
+            </button>
+            <button
+              data-testid="week2"
+              value="week2"
+            >
+              Oct 23 - Oct 29
+            </button>
+            <button
+              data-testid="week3"
+              value="week3"
+            >
+              Nov 06 - Nov 12
+            </button>
+            <button
+              data-testid="week4"
+              value="week4"
+            >
+              Nov 13 - Nov 19
+            </button>
+            <button
+              data-testid="week5"
+              value="week5"
+            >
+              Nov 20 - Nov 26
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="foodItems"
+          >
+            <div
+              class="foodItem"
+              data-testid="94298"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2021/10/10/18/04/food-6697924_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                3 Chicken Wings
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Tender, Spicy and Juicy.
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94301"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2021/10/10/18/03/food-6697917_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                Chicken Livers and Portuguese Roll
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Chicken Livers Topped with PERi-PERi Sauce
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94304"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2021/10/10/18/10/rice-6697956_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                Spicy Mixed Olives (V)
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Co-Starring Garlic, Pepper
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94307"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2021/10/10/18/11/chicken-kabob-6697959_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                Hummus with PERI-PERI Drizzle (V)
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Pour Smoky PERi-PERi Oil Over Creamy Hummus
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94310"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2021/10/10/12/59/drink-6696596_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                Red Pepper Dip (V)
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Dive Into Temping Roasted Red Pepper
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94313"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                Appeteaser Platter
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Choose any Three Appeteasers
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94316"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2021/10/10/18/10/chicken-kabob-6697957_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                All Together Now (V)
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Spicy Mixed Olives, Red Pepper Dip.
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94334"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2015/03/26/09/39/cupcakes-690040_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                PERi-PERi Wedges (P)
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Spicy Mixed Olives, Red Pepper Dip.
+              </p>
+            </div>
+            <div
+              class="foodItem"
+              data-testid="94337"
+            >
+              <img
+                alt="some food Image"
+                data-testid="foodItemImage"
+                height="200"
+                src="https://cdn.pixabay.com/photo/2015/07/31/12/07/soup-greens-869075_1280.jpg"
+                width="360"
+              />
+              <p
+                data-testid="foodItemName"
+                id="foodItemName"
+              >
+                Corn-On-The-Cob
+              </p>
+              <p
+                data-testid="foodItemDescription"
+                id="foodItemDescription"
+              >
+                Spicy Mixed Olives, Red Pepper Dip.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

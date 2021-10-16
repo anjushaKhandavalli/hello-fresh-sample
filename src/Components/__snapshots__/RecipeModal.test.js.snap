@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeModal should render recipe modal with recipe information 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="recipeModal"
+        data-testid="recipeModal"
+      >
+        <div
+          class="recipe"
+        >
+          <h2>
+            3 Chicken Wings
+          </h2>
+          <h3>
+            with Sweet Potato Wedges and Minted Snap Peas
+          </h3>
+          <h4>
+            Plant-Based | Ready in 5 | Serves 2
+          </h4>
+          <p
+            class="recipeInfo"
+          >
+            There’s nothing like the simple things in life - the smell of freshly cut grass, sitting outside on a nice sunny day, spending time with friends and family. Well here is a recipe that delivers simple culinary pleasures - some nice fresh fish with a crispy crust, crunchy potato wedges and some delightfully sweet sugar snap peas flavoured with cooling mint. Slip into something comfortable and relax into a delicious dinner!
+          </p>
+          <h5>
+            Ingredients
+          </h5>
+          <ul
+            class="recipeInfo"
+          >
+            <li>
+              375g Sweet Potatoes
+            </li>
+            <li>
+              1 Tsp Paprika
+            </li>
+            <li>
+              2 Tbsps Parmesan Cheese
+            </li>
+            <li>
+              1 Lemon
+            </li>
+            <li>
+              A Few Sprigs Thyme
+            </li>
+            <li>
+              25g Panko Breadcrumbs
+            </li>
+            <li>
+              1 Tbsp Butter
+            </li>
+            <li>
+              2 Cod Fillets
+            </li>
+            <li>
+              150g Sugar Snap Peas
+            </li>
+            <li>
+              A Few Sprigs Mint
+            </li>
+            <li>
+              75ml Sour Cream
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="recipeModal"
+      data-testid="recipeModal"
+    >
+      <div
+        class="recipe"
+      >
+        <h2>
+          3 Chicken Wings
+        </h2>
+        <h3>
+          with Sweet Potato Wedges and Minted Snap Peas
+        </h3>
+        <h4>
+          Plant-Based | Ready in 5 | Serves 2
+        </h4>
+        <p
+          class="recipeInfo"
+        >
+          There’s nothing like the simple things in life - the smell of freshly cut grass, sitting outside on a nice sunny day, spending time with friends and family. Well here is a recipe that delivers simple culinary pleasures - some nice fresh fish with a crispy crust, crunchy potato wedges and some delightfully sweet sugar snap peas flavoured with cooling mint. Slip into something comfortable and relax into a delicious dinner!
+        </p>
+        <h5>
+          Ingredients
+        </h5>
+        <ul
+          class="recipeInfo"
+        >
+          <li>
+            375g Sweet Potatoes
+          </li>
+          <li>
+            1 Tsp Paprika
+          </li>
+          <li>
+            2 Tbsps Parmesan Cheese
+          </li>
+          <li>
+            1 Lemon
+          </li>
+          <li>
+            A Few Sprigs Thyme
+          </li>
+          <li>
+            25g Panko Breadcrumbs
+          </li>
+          <li>
+            1 Tbsp Butter
+          </li>
+          <li>
+            2 Cod Fillets
+          </li>
+          <li>
+            150g Sugar Snap Peas
+          </li>
+          <li>
+            A Few Sprigs Mint
+          </li>
+          <li>
+            75ml Sour Cream
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -14,14 +14,14 @@ const FoodItems = ({items}) => {
 
     const FoodItem = ({foodItem}) => {
         return (
-            <div className="foodItem" onClick={() => showRecipeModal(foodItem)}>
-                <img width="360" height="200" src={foodItem.imageUrl} alt="some food Image"/>
-                <p id="foodItemName">{foodItem.name}</p>
-                <p id="foodItemDescription">{foodItem.description}</p>
+            <div className="foodItem" data-testid={foodItem.id} onClick={() => showRecipeModal(foodItem)}>
+                <img width="360" height="200" data-testid="foodItemImage" src={foodItem.imageUrl} alt="some food Image"/>
+                <p id="foodItemName" data-testid="foodItemName">{foodItem.name}</p>
+                <p id="foodItemDescription" data-testid="foodItemDescription">{foodItem.description}</p>
             </div>
         )
     }
-    const renderFoodItems = items.map((foodItem) => <FoodItem foodItem={foodItem}/>)
+    const renderFoodItems = items.map((foodItem) => <FoodItem key={foodItem.id} foodItem={foodItem}/>)
 
     return (
         <div>

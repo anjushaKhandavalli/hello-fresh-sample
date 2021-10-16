@@ -7,3 +7,8 @@ fileignoreconfig:
 fileignoreconfig:
 - filename: yarn.lock
   checksum: 4802f6e3655c7414bf10f358f17fc42c34df84cbca9ca8f5dfaae23275604f08
+fileignoreconfig:
+- filename: src/Components/Fooditems.js
+  checksum: 54a2dfeb0bba5c908181e03e56018186df4e4a9b807228fb36f9866e3bb5151b
+- filename: src/Components/ReceipeModal.js
+  checksum: 83a217de96b97d9e934481124de23e4499fac9057fa79ed9beaa716f8a9cebc2
