@@ -15,3 +15,6 @@ fileignoreconfig:
 fileignoreconfig:
 - filename: package-lock.json
   checksum: dcecafb64f82c68e32694d20f286cfbc522620a8d88e365a839fc2b2cbae6e44
+fileignoreconfig:
+- filename: .github/workflows/Fresh.yml
+  checksum: fa82c3cab4163a06d14ae83d0b758f3b8d614ca88cdd6448ff51521aaf6acdb7
