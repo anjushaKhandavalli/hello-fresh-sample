@@ -15,7 +15,7 @@ const FoodItems = ({items}) => {
     const FoodItem = ({foodItem}) => {
         return (
             <div className="foodItem" data-testid={foodItem.id} onClick={() => showRecipeModal(foodItem)}>
-                <img width="360" height="200" data-testid="foodItemImage" src={foodItem.imageUrl} alt="some food Image"/>
+                <img width="360" height="200" data-testid="foodItemImage" src={foodItem.imageUrl} alt="some food"/>
                 <p id="foodItemName" data-testid="foodItemName">{foodItem.name}</p>
                 <p id="foodItemDescription" data-testid="foodItemDescription">{foodItem.description}</p>
             </div>
